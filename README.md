@@ -2,6 +2,8 @@
 
 Small DataWeave library + tests used for examples and local testing.
 
+https://docs.mulesoft.com/dataweave/latest/dataweave-extension-plugin#test-a-dataweave-mapping
+
 **Project layout**
 - `src/main/dw/` — DataWeave modules (shared functions)
 - `src/test/dw/` — DataWeave test mappings/tests
