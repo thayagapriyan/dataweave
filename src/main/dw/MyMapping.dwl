@@ -4,6 +4,6 @@ output application/json
 import * from MyModule
 ---
 {
-    name: "Hello world!",
+    name: payload.name,
     result: add(5, 10)
 }
