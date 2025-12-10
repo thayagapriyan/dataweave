@@ -144,3 +144,100 @@ ns0#JournalEntryBulkCreateRequest: {
             }
         })
 }
+
+[{
+  "JournalHeader": {
+    "AccountCode": "0020",
+    "DocumentDate": "2022-11-18",
+    "PostingDate": "2022-11-18",
+    "VendorCode": "123456",
+    "FinancialVendorCode": "100000",
+    "JournalNumber": null,
+    "CreatedBy": "G4DEV",
+    "SourceSystem": "TRAX",
+    "Invoice": "IN133445",
+    "InvoiceVoucher": "589",
+    "OrderType": "INVOICE",
+    "OrderNumber": "133445",
+    "Source": null,
+    "TransactionIdentifier": null,
+    "TransactionCategory": "ORDER",
+    "Terms": "06"
+  },
+  "JournalItems": [
+    {
+      "Amount": "100",
+      "OrderLine": "1",
+      "Description": null,
+      "LocationCode": "53008",
+      "FinancialLocation": "LAS",
+      "Currency": "USD",
+      "OrderCapitalExpediture": "1752311004",
+      "GLExpenditure": "70555001",
+      "PartNumber": null,
+      "PartNumberCategory": "ROT",
+      "TransactionType": null,
+      "FixedAssetNumber": [
+        "31355",
+        "31356"
+      ],
+      "FixedAssetCount": "2"
+    },
+    {
+      "Amount": "-100",
+      "OrderLine": "1",
+      "Description": null,
+      "LocationCode": "00",
+      "FinancialLocation": "LAS",
+      "Currency": "USD",
+      "OrderCapitalExpediture": "1752311004",
+      "GLExpenditure": "20140100",
+      "PartNumber": null,
+      "PartNumberCategory": "ROT",
+      "TransactionType": null,
+      "FixedAssetNumber": [
+        "31355",
+        "31356"
+      ],
+      "FixedAssetCount": "2"
+    },
+    {
+      "Amount": "200",
+      "OrderLine": "2",
+      "Description": null,
+      "LocationCode": "53008",
+      "FinancialLocation": "LAS",
+      "Currency": "USD",
+      "OrderCapitalExpediture": null,
+      "GLExpenditure": "70555001",
+      "PartNumber": null,
+      "PartNumberCategory": "EXP",
+      "TransactionType": null,
+      "FixedAssetNumber": [
+        ""
+      ],
+      "FixedAssetCount": null
+    },
+    {
+      "Amount": "-200",
+      "OrderLine": "2",
+      "Description": null,
+      "LocationCode": "00",
+      "FinancialLocation": "LAS",
+      "Currency": "USD",
+      "OrderCapitalExpediture": "1752311004",
+      "GLExpenditure": "20140100",
+      "PartNumber": null,
+      "PartNumberCategory": "EXP",
+      "TransactionType": null,
+      "FixedAssetNumber": [
+        ""
+      ],
+      "FixedAssetCount": null
+    }
+  ],
+  "batchCorrelationId": "TRXca8183c120d846ffa9665d85a65cdf2f",
+  "batchDate": "2022-11-18T07:45:00.601Z",
+  "sourceSystem": "TRAX",
+  "invoiceCount": 1
+}]
